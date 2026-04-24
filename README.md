@@ -1,15 +1,61 @@
-# How to Enable Adaptive UI Layout in the React DataGrid Component
+# React Data Grid Adaptive Layout
 
-A quick-start project that contains code adaptive UI Layout in the Syncfusion React DataGrid component. This project also includes a code snippet for change the row render mode in DataGrid.
+## Repository Description
 
-Refer to the following documentation to learn about the React DataGrid component: 
-https://ej2.syncfusion.com/react/documentation/grid/getting-started  
+This repository demonstrates how to implement an adaptive layout for the Syncfusion React DataGrid, focusing on responsive behavior across different screen sizes and devices.
 
-Check out this online example of the React DataGrid component:
-https://ej2.syncfusion.com/react/demos/#/material3/grid/overview
+## Overview
 
-## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio Code](https://code.visualstudio.com/download ) and [NodeJS](https://nodejs.org/en/download) or later version in your machine before starting to work on this project.
+The project showcases a practical example of using the Syncfusion React DataGrid with adaptive UI capabilities. It highlights how the grid can automatically adjust its layout, column visibility, and interaction patterns when rendered on desktop, tablet, and mobile devices. This sample is useful for developers building responsive enterprise applications that require rich data presentation without compromising usability on smaller screens.
 
-### How to run this application?
-To run this application, you need to clone the `Sorting-in-react-data-grid` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `npm start` command.
+## Key Features
+
+- Adaptive layout support for different viewport sizes
+- Responsive column rendering based on device width
+- Touch-friendly interactions for mobile devices
+- Integration with Syncfusion React DataGrid components
+- Clean and minimal setup focused on layout behavior
+
+## Technologies Used
+
+- React
+- Syncfusion React DataGrid
+- JavaScript (ES6+)
+- CSS for responsive styling
+
+## Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or yarn package manager
+- Basic knowledge of React and component-based architecture
+
+## Running the Application
+
+1. Clone the repository:
+
+```cmd
+git clone https://github.com/SyncfusionExamples/React-data-grid-adaptive-layout.git
+```
+
+2. Navigate to the project folder:
+
+```cmd
+cd handling-crud-actions-using-fetch-api-and-react-grid-events
+```
+
+3. Install dependencies:
+
+```cmd
+npm install
+```
+
+3. Start the development server:
+
+```cmd
+npm run serve
+```
+
+## Resources
+
+- Documentation: https://ej2.syncfusion.com/react/documentation/grid/adaptive
+- Demo: https://ej2.syncfusion.com/react/demos/#/tailwind3/grid/adaptive-layout
